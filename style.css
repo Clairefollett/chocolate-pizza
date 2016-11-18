@@ -1,0 +1,33 @@
+/* CITE http://stackoverflow.com/questions/18754141/unordered-list-with-checkmarks-list-style-positions-outside-text-aligned-on-the */
+/*cdd for checkboxes, adapted from above cite.*/
+/*&#10004; check*/
+li:before
+{
+    content: '◻';
+    margin-left: -1em;
+    margin-right: .100em;
+}
+
+ul
+{
+   padding-left: 20px;
+   text-indent: 2px;
+   list-style: none;
+   list-style-position: outside;
+}
+/*
+.checked
+{
+    content: '☑';
+    margin-left: -1em;
+    margin-right: .100em;
+}
+
+.checked
+{
+   padding-left: 20px;
+   text-indent: 2px;
+   list-style: none;
+   list-style-position: outside;
+}*/
+/*above is for the list */
